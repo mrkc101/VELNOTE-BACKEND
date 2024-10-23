@@ -1,1 +1,1 @@
-web: gunicorn VelNote.wsgi
+web: gunicorn VelNote.wsgi --log-file -
